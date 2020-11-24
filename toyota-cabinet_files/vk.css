@@ -68,6 +68,7 @@
     background: none;
     min-height: auto;
     box-shadow: none;
+    flex-wrap: wrap;
 }
 
 .tab-pane .vk-promo .title {
@@ -80,6 +81,11 @@
     width: 100%;
 }
 
+.tab-pane .movie-wrapper {
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    width: 100%;
+}
 
 
 @media (max-width: 767px) {
@@ -169,11 +175,7 @@
         line-height: 22px;
     }
 
-    .tab-pane .movie-wrapper {
-        max-width: 900px;
-        margin: 0 auto 20px auto;
-        width: 100%;
-    }
+
 
 }
 
