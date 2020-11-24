@@ -3,7 +3,8 @@
 }*/
 
 .vk-promo {
-    height: 100vh;
+    display: flex;
+    align-items: center;
     justify-content: center;
     background: url(promo-top.png) center bottom no-repeat;
     background-size: cover;
@@ -15,6 +16,10 @@
     box-shadow: 0 0 65px 0 rgba(0, 0, 0, .25);
 }
 
+.container{
+    width: 100%;
+}
+
 .movie-container {
     position: relative;
     padding-bottom: 50%;
@@ -22,7 +27,7 @@
     overflow: hidden;
     display: block;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1100px;
     width: 100%;
 }
 
@@ -70,18 +75,12 @@
 }
 
 .movie-wrapper {
-    max-width: 900px;
+    /*max-width: 1100px;*/
     margin: 0 auto 20px auto;
     width: 100%;
 }
 
-/*.cabinet-pane {*/
-/*    min-height: auto;*/
-/*}*/
 
-/*.cabinet-controls{*/
-/*    padding: 20px 0 0 0;*/
-/*}*/
 
 @media (max-width: 767px) {
     .cabinet-pane {
@@ -168,6 +167,12 @@
     .tab-pane .vk-promo .title {
         font-size: 18px;
         line-height: 22px;
+    }
+
+    .tab-pane .movie-wrapper {
+        max-width: 900px;
+        margin: 0 auto 20px auto;
+        width: 100%;
     }
 
 }
